@@ -1,0 +1,28 @@
+dist
+
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+*.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# EDITORS
+.idea
+.vscode
+
+# Autogenerates when VSCode debugger launches
+jsconfig.json
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# env
+.env*
